@@ -16,6 +16,7 @@ body {
     background-size: cover;      
     background-position: center;
     background-attachment: fixed;
+    background-color: rgb(231, 173, 231);
 }
 
 /* MAIN CONTAINER */
@@ -227,5 +228,6 @@ h1 {
 .untyped-word {
     color: #333; /* default color for words not yet typed */
 }
+
 
 
