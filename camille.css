@@ -32,7 +32,7 @@ body {
 
     /* DEEP SHADOW THAT HITS BACKGROUND */
     box-shadow: 
-        0 25px 80px rgba(244, 245, 247, 0.45),   /* main deep shadow */
+        0 25px 80px rgba(240, 237, 237, 0.45),   /* main deep shadow */
         0 0 60px rgba(255, 160, 230, 0.35); /* soft glow */
 
     max-width: 1100px;
@@ -228,6 +228,7 @@ h1 {
 .untyped-word {
     color: #333; /* default color for words not yet typed */
 }
+
 
 
 
