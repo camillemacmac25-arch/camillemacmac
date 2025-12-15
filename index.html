@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Camille Typing Master ✨</title>
+    <link rel="stylesheet" href="camille.css">
+</head>
+<body>
+    <div class="particles" id="particles"></div>
+    
+    <div class="container">
+        <h1>⌨ Typing Master</h1>
+        <p class="subtitle">Test your typing speed and accuracy!</p>
+        
+        <div class="stats">
+            <div class="stat-card">
+                <span class="stat-number" id="wpm">0</span>
+                WPM
+            </div>
+            <div class="stat-card">
+                <span class="stat-number" id="accuracy">0</span>%
+                Accuracy
+            </div>
+            <div class="stat-card">
+                <span class="stat-number" id="time">60</span>s
+                Remaining
+            </div>
+        </div>
+
+        <div id="grade" class="grade-badge" style="display: none;"></div>
+
+        <div class="progress-bar">
+            <div class="progress" id="progress"></div>
+        </div>
+
+        <div id="quote"></div>
+        
+        <textarea id="textarea" placeholder="Start typing the text above to begin... 👆" disabled></textarea>
+        
+        <br>
+        <button class="btn" id="startBtn">🚀 Start Test</button>
+        <button class="btn" id="resetBtn" disabled>🔄 New Test</button>
+    </div>
+
+    <script src="camille.js"></script>
+</body>
+</html>
