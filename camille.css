@@ -12,7 +12,6 @@ body {
     overflow: hidden;
 
     /* Full-page background image */
-    background-image: url('mac.webp'); /* replace with your file name */
     background-repeat: no-repeat;
     background-size: cover;      
     background-position: center;
@@ -228,4 +227,5 @@ h1 {
 .untyped-word {
     color: #333; /* default color for words not yet typed */
 }
+
 
